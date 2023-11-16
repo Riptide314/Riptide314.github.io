@@ -165,6 +165,69 @@ var App=typeof App==='undefined'?0:App;
 				<div id="upgrades" class="storeSection upgradeBox"></div>
 				<div id="products" class="storeSection"></div>
 			</div>
+			<div id="support" style="margin-top:130px;">
+				<!--<div class="supportComment">v Sponsored links v</div>-->
+				<div style="position:relative;">
+			<script>
+			function loadMod() {
+			  /* Get the text field */
+			  var copyText = document.getElementById("modLoader");
+			
+			  /* Select the text field */
+			  copyText.select();
+			  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+			 
+			  /* Sends you to the link */
+			  window.location.href = copyText.value;
+			}
+			</script>
+			<!-- The button used to copy the text -->
+			<button onclick="loadMod()">Load</button>
+			<!-- The text field -->
+			<input style="position= absolute;" type="text" value="" id="modLoader">
+			<!-- The text field -->
+			<br>
+			<div style="width:300px;text-align:center;padding:8px 0px;background:rgba(0,0,0,0);font-size:15px;opacity:0.5;text-shadow:0px 0px 2px #000,0px 1px 0px #000;text-align:center;">
+				Paste a bookmark addon into here<br>and press the button to load the mod.<br>DONT DO A LINK! Or you will leave the site.
+			</div>
+				
+					<div style="position:relative;z-index:100;min-height:250px;">
+					
+						<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						 Cookie Clicker Responsive 
+						<ins class="adsbygoogle"
+							 style="display:block;margin:auto;"
+							 data-ad-client="ca-pub-8491708950677704"
+							 data-ad-slot="9780186019"
+							 data-ad-format="auto"
+							 data-full-width-responsive="true"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+				
+						<script>
+						document.addEventListener('DOMContentLoaded',function(){
+							setTimeout(function(){
+								var adSlot=document.querySelector("ins[data-ad-slot='9780186019']");
+								if(adSlot && adSlot.getAttribute('data-ad-status')=='unfilled')
+								{
+									var backfill=document.createElement('div');backfill.innerHTML='<iframe style="border:none;" src="https://serve.playsaurus.com/300x600.html" width="300" height="600" sandbox="allow-scripts allow-popups"></iframe>';
+									adSlot.parentNode.replaceChild(backfill,adSlot);
+								}
+							},3000);
+						});
+						</script>
+						
+						<div style="height:16px;"></div>
+						
+						AdventureQuest Worlds banner
+						<a class="ad" id="aqad" href="http://www.aq.com/landing/cookie/?utm_campaign=AQW_CookieClicker&utm_source=CookieClicker" target="_blank" title="AdventureQuest Worlds" style="background:url(img/aqworldsbanner.jpg) no-repeat;width:300px;height:64px;display:block;position:relative;margin:0px auto;">
+						</a>-->
+						
+					</div>
+					
+				</div>
+			</div>
 		</div>
 		
 		<div id="tooltipAnchor"><div id="tooltip" class="framed" onMouseOut="Game.tooltip.hide();"></div></div>
